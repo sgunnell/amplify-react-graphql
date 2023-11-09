@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Amplify React GraphQL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Amplify React GraphQL repository! This repository is dedicated to my experiments with React and GraphQL, deployed using AWS Amplify. The project was initially deployed on AWS Free Tier for testing purposes.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+In this project, I explore the integration of React, a popular JavaScript library for building user interfaces, and GraphQL, a query language for APIs. By combining these technologies, I aim to create dynamic and interactive web applications. The project also includes deployment configurations for AWS Amplify, allowing seamless deployment of the application to the cloud.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- GraphQL: A query language for APIs.
+- AWS Amplify: A development platform for building scalable and secure cloud-powered applications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get started with this project, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/sgunnell/amplify-react-graphql.git`
+2. Navigate to the project directory: `cd amplify-react-graphql`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-### `npm run build`
+## Deployment and Termination (Using AWS Free Tier)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project was initially deployed on AWS Free Tier for testing purposes. Please note that resources deployed on AWS Free Tier have usage limits, and it's essential to monitor your usage to avoid additional charges.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Deployment:** The project can be deployed on AWS Amplify by pushing changes to the configured branch (e.g., `main`). Amplify will automatically build and deploy the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Termination:** After testing, make sure to terminate the resources on AWS Amplify to avoid incurring charges. You can do this through the AWS Management Console or Amplify CLI.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 🚀
